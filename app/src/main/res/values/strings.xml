@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lección03</string>
+    <string name="string1">Ingrese su
+        CALIFICACIÓN</string>
+    <string name="calificacion">CALIFICACIÓN</string>
+    <string name="btncomprobar">COMPROBAR</string>
+</resources>

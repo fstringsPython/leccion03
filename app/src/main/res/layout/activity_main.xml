@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tV001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su\nCALIFICACIÓN"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/calificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/calificacion"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnComprobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btncomprobar"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
+        android:layout_marginHorizontal="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Su nota equivale a una:"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/tVrespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="bold"
+        android:textSize="300sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="?"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
